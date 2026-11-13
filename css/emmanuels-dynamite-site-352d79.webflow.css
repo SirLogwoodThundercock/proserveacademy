@@ -6376,4 +6376,26 @@ body {
   }
 }
 
+/* About: inset the history-card media and give each photo a clearer, softer frame. */
+.section.history .history-card {
+  box-sizing: border-box;
+  padding: 14px;
+}
+
+.section.history .history-image-wrap {
+  gap: 12px;
+}
+
+.section.history .history-image {
+  border-radius: 16px;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .section.history .history-card {
+    padding: 12px;
+  }
+}
+
 
